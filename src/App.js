@@ -1,7 +1,4 @@
-// import logo from './logo.svg';
-import { Carousel } from 'react-responsive-carousel';
 import './App.css';
-// import { BrowserRouter, Routes, Route } from "react-router-dom";
 import MoviesList from './components/MovieList';
 import Navigationbar from './Navbar';
 import Carousels from './Caurosel';

@@ -29,7 +29,10 @@ const Carousels = () => {
                         popularMovies.map(movie => (
                             <div className="posterall">
                                 <div className="posterImage">
-                                    <img src={`https://image.tmdb.org/t/p/original${movie && movie.backdrop_path}`} />
+                                    <img src={`https://image.tmdb.org/t/p/original${movie && movie.backdrop_path}`} 
+                                      alt={movie ? movie.original_title : "Movie Poster"}
+
+                                    />
                                 </div>
                                 <div className="posterImage__overlay">
                                     <div className="posterImage__title">{movie ? movie.original_title: ""}</div>
